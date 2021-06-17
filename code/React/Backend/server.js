@@ -7,7 +7,7 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 dotenv.config()
 const cookieParser = require('cookie-parser');
-const postRoute = require('./routes/posts');
+
 //Connecting Database
 
 
@@ -28,5 +28,4 @@ mongoose.connect(process.env.DATABASE_ACCESS,{
     useCreateIndex: true,
 } ,() => console.log("database connected"))
 
-// app.use('/app/posts', postRoute);
 app.use('/app', registerURL);

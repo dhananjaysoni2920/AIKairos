@@ -1,6 +1,5 @@
 //Importing Libraries
-const express = require('express')
-const router = express.Router()
+const router = require('express').Router()
 const bcrypt = require('bcrypt') //̵Library for generating encrypted passwords
 const Joi = require('joi') //Library for Validation
 const User = require('../models/signupmodel') //Importing  signUpTemplate
@@ -125,8 +124,7 @@ router.get("/loggedIn", (req, res) => {
     const token = req.cookies.token;
     if (!token) return res.json(false);
 
-    jwt.verify(token, process.env.JWT_SECRET);
-
+    jwt.verify(token, process.env.SECRET_TOKEN);
     res.send(true);
   } catch (err) {
     res.json(false);

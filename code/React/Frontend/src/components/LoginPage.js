@@ -22,7 +22,10 @@ function LoginPage() {
         await axios.post(
           "http://localhost:4000/app/login",
           loginData
+          
         );
+
+        window.location.href = "/dashboard"
       } catch (err) {
         console.error(err);
       }
