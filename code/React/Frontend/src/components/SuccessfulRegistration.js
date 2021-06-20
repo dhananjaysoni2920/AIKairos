@@ -7,18 +7,18 @@ class SuccessfulRegistration extends React.Component{
 
     render(){
         return(
-            <div className="container">
+            <div className="SuccessfulRegistration_container">
 
-                <div className="myform-div">
+                <div className="SuccessfulRegistration_myform-div">
                     
-                        <div className="logintitle">
+                        <div className="SuccessfulRegistration_logintitle">
                             <h1>Done</h1>
                             <hr id="loginhr" />
                         </div>
 
                         <div><p>You have been successfully registered.</p></div>
                     
-                        <div className="signin-button">
+                        <div className="SuccessfulRegistration_signin-button">
                             <Link to="/">
                             <button >Log In</button>
                             </Link>

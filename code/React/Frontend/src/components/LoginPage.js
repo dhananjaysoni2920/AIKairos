@@ -25,7 +25,7 @@ function LoginPage() {
           
         );
 
-        window.location.href = "/dashboard"
+        window.location.href = "/ProfileSettings"
       } catch (err) {
         console.error(err);
       }
@@ -33,23 +33,24 @@ function LoginPage() {
     
         return (
       
-        <div className="container">
-            <div className="welcome-div">
+        <div id="LoginPage_loginpage">
+            <div className="LoginPage_container">
+            <div className="LoginPage_welcome-div">
                 <h1>Welcome, back !</h1>
             </div>
 
-            <div className="form-div">
+            <div className="LoginPage_form-div">
                 <form onSubmit={login}>
-                    <div className="logintitle">
+                    <div className="LoginPage_logintitle">
                         <h1>Login</h1>
-                        <hr id="loginhr"/>
+                        <hr id="LoginPage_loginhr"/>
                     </div>
 
-                    <div className="labels-inputs">
-                        <div className="input-box">
+                    <div className="LoginPage_labels-inputs">
+                        <div className="LoginPage_input-box">
                             
                             <label>Email</label>
-                            <input className="box" 
+                            <input className="LoginPage_box" 
                             onChange={(e) => setEmail(e.target.value)} 
                             type="email" 
                             placeholder=" ✉️Enter Email Id"
@@ -57,9 +58,9 @@ function LoginPage() {
                             
                         </div>
 
-                        <div className="input-box">
+                        <div className="LoginPage_input-box">
                             <label>Password</label>
-                            <input className="box" 
+                            <input className="LoginPage_box" 
                             type="password" 
                             placeholder=" 🔒Enter Password"
                             onChange={(e) => setPassword(e.target.value)}
@@ -69,21 +70,22 @@ function LoginPage() {
 
                     <div><p>Forgot Password?</p></div>
 
-                    <div className="signin-button">
+                    <div className="LoginPage_signin-button">
                         <button type="submit">Sign In</button>
                     </div>
 
-                    <hr id="sign-in-up"/>
+                    <hr id="LoginPage_sign-in-up"/>
 
-                    <div className="signup-button">
+                    <div className="LoginPage_signup-button">
                         <Link to="/register">
-                            <button id="createbutton">Create an Account</button>
+                            <button id="LoginPage_createbutton">Create an Account</button>
                         </Link>
                         
                     </div>
 
                 </form>
             </div>
+        </div>
         </div>
       
     

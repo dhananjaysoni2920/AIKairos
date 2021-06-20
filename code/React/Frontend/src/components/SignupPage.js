@@ -41,45 +41,45 @@ class SignupPage extends React.Component {
 
     render(){
         return(
-    <div className="container">
-        <div className="greeting-div">
+    <div className="SignUpPage_container">
+        <div className="SignUpPage_greeting-div">
             <h1>Hello !</h1>
         </div>
 
-        <div className="form-div">
+        <div className="SignUpPage_form-div">
             <form onSubmit = {this.onSubmit}>
-                <div className="registertitle">
+                <div className="SignUpPage_registertitle">
                     <h1>Sign Up</h1>
-                    <hr id="registerhr"/>
+                    <hr id="SignUpPage_registerhr"/>
                 </div>
 
-                <div className="labels-inputs">
-                    <div className="input-box">
+                <div className="SignUpPage_labels-inputs">
+                    <div className="SignUpPage_input-box">
 
                         <label>Name</label>
-                        <input className="box" type="text" name="fullName" placeholder=" 🤖Enter Full Name" onChange={this.handleChange} value = {this.state.fullName}/>
+                        <input className="SignUpPage_box" type="text" name="fullName" placeholder=" 🤖Enter Full Name" onChange={this.handleChange} value = {this.state.fullName}/>
 
                     </div>
 
-                    <div className="input-box">
+                    <div className="SignUpPage_input-box">
                         <label>Email</label>
-                        <input className="box" type="email" name="email" placeholder=" ✉️Enter Email Id" onChange={this.handleChange} value = {this.state.email}/>
+                        <input className="SignUpPage_box" type="email" name="email" placeholder=" ✉️Enter Email Id" onChange={this.handleChange} value = {this.state.email}/>
                     </div>
 
-                    <div className="input-box">
+                    <div className="SignUpPage_input-box">
 
                         <label>Mobile</label>
-                        <input className="box" type="number" name="mobileNumber" placeholder=" 📱Enter Mobile Number" onChange={this.handleChange} value = {this.state.mobileNumber}/>
+                        <input className="SignUpPage_box" type="number" name="mobileNumber" placeholder=" 📱Enter Mobile Number" onChange={this.handleChange} value = {this.state.mobileNumber}/>
 
                     </div>
 
-                    <div className="input-box">
+                    <div className="SignUpPage_input-box">
                         <label>Password</label>
-                        <input className="box" type="password" name="password" placeholder=" 🔒Enter Password" onChange={this.handleChange} value = {this.state.password}/>
+                        <input className="SignUpPage_box" type="password" name="password" placeholder=" 🔒Enter Password" onChange={this.handleChange} value = {this.state.password}/>
                     </div>
                 </div>
 
-                <div className="register-button">
+                <div className="SignUpPage_register-button">
                     <button>Register</button>
                 </div>
 

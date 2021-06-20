@@ -1,5 +1,7 @@
-.container {
-    position: absolute;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+.SignUpPage_container {
+position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
@@ -10,17 +12,17 @@
     align-items: center;
 }
 
-.greeting-div h1 {
+.SignUpPage_greeting-div h1 {
     color: white;
-    font-family: Texta-Bold;
+    
     font-size: 80px;
 }
 
-.greeting-div {
+.SignUpPage_greeting-div {
     margin: 0 auto;
 }
 
-.form-div {
+.SignUpPage_form-div {
     margin: 0 auto;
     width: 400px;
     height: 450px;
@@ -30,15 +32,15 @@
 }
 
 /* Login Title */
-.registertitle h1 {
+.SignUpPage_registertitle h1 {
     text-align: center;
-    font-family: Texta-Bold;
+    
     margin-top: 2px;
     margin-bottom: 0px;
     font-size: 45px;
 }
 
-#registerhr {
+#SignUpPage_registerhr {
     position: relative;
     padding-top: 0px;
     margin-top: 0px;
@@ -52,13 +54,13 @@
 
 /* Labels and Inputs */
 
-.labels-inputs label {
-    font-family: Texta-Bold;
+.SignUpPage_labels-inputs label {
+    
     font-size: 18px;
     margin-left: 12px;
 }
 
-.input-box {
+.SignUpPage_input-box {
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -66,8 +68,7 @@
 
 }
 
-.box {
-    font-family: Texta-Regular;
+.SignUpPage_box {
     font-size: 14px;
     margin-right: 12px;
     border: 0.5px solid rgba(46, 191, 145, 1);
@@ -79,16 +80,16 @@
 }
 
 
-.register-button {
+.SignUpPage_register-button {
     text-align: center;
 }
 
-.register-button button {
+.SignUpPage_register-button button {
     width: 180px;
     height: 60px;
     border-radius: 25px;
     border-style: none;
-    font-family: Texta-Bold;
+    
     font-size: 20px;
     margin-top: 30px;
     box-shadow: 0 0 8px rgba(46, 191, 145, 1);

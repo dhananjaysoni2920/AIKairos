@@ -1,4 +1,8 @@
-.container {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+
+
+.LoginPage_container {
   position: absolute;
   top: 0;
   left: 0;
@@ -10,17 +14,17 @@
   align-items: center;
 }
 
-.welcome-div h1 {
+.LoginPage_welcome-div h1 {
   color: white;
-  font-family: Texta-Bold;
+  
   font-size: 80px;
 }
 
-.welcome-div {
+.LoginPage_welcome-div {
   margin: 0 auto;
 }
 
-.form-div {
+.LoginPage_form-div {
   margin: 0 auto;
   width: 400px;
   height: 450px;
@@ -30,15 +34,15 @@
 }
 
 /* Login Title */
-.logintitle h1 {
+.LoginPage_logintitle h1 {
   text-align: center;
-  font-family: Texta-Bold;
+  
   margin-top: 2px;
   margin-bottom: 0px;
   font-size: 45px;
 }
 
-#loginhr {
+#LoginPage_loginhr {
   position: relative;
   padding-top: 0px;
   margin-top: 0px;
@@ -51,13 +55,12 @@
 
 /* Labels and Inputs */
 
-.labels-inputs label {
-  font-family: Texta-Bold;
+.LoginPage_labels-inputs label {
   font-size: 23px;
   margin-left: 12px;
 }
 
-.input-box {
+.LoginPage_input-box {
   margin-top: 20px;
   display: flex;
   align-items: center;
@@ -65,8 +68,8 @@
 
 }
 
-.box {
-  font-family: Texta-Regular;
+.LoginPage_box {
+  font-weight: 300;
   font-size: 18px;
   margin-right: 12px;
   border: 0.5px solid rgba(46, 191, 145, 1);
@@ -77,29 +80,29 @@
 
 }
 
-.form-div p {
+.LoginPage_form-div p {
   text-align: center;
-  font-family: Texta-Bold;
+  
   font-size: 20px;
 }
 
-.signin-button {
+.LoginPage_signin-button {
   text-align: center;
+
 }
 
-.signin-button button {
+.LoginPage_signin-button button {
   width: 300px;
   height: 60px;
   border-radius: 25px;
   border-style: none;
-  font-family: Texta-Bold;
   font-size: 25px;
   box-shadow: 0 0 8px rgba(46, 191, 145, 1);
   background-color: rgba(46, 191, 145);
   color: white;
 }
 
-#sign-in-up {
+#LoginPage_sign-in-up {
   width: 350px;
   border-style: solid;
   color: #D1D1D1;
@@ -108,16 +111,16 @@
   margin-bottom: 15px;
 }
 
-.signup-button {
+.LoginPage_signup-button {
   text-align: center;
 }
 
-.signup-button button {
+.LoginPage_signup-button button {
   width: 300px;
   height: 60px;
   border-radius: 25px;
   border-style: none;
-  font-family: Texta-Bold;
+  
   font-size: 25px;
   box-shadow: 0 0 8px rgba(131, 96, 195, 1);
   background-color: rgba(131, 96, 195, 1);
