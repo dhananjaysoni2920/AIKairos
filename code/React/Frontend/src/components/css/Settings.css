@@ -81,6 +81,11 @@
     margin-left: 20px;
 }
 
+.Settings_settings-container a{
+    text-decoration: none;
+    color: black;
+}
+
 .Settings_settings-p p{
     margin-bottom: 25px;
     font-size: 18px;

@@ -2,8 +2,15 @@
 import React from "react";
 import "./css/Settings.css"
 import botLogo from "./Assets/Settings/bot.png"
+import axios from "axios";
 
 function Settings(){
+
+    function logOut(){
+        axios.get("http://localhost:4000/app/logout")
+        
+        window.location.reload();
+    }
 
     return(
         <div className="Settings_main-div">
@@ -20,9 +27,13 @@ function Settings(){
         <div className="Settings_settings-container">
             <div className="Settings_settings-p">
                 <p>Help & Support</p>
-                <p>Profile Settings</p>
+                <a href="/profilesettings">
+                    <p>Profile Settings</p>
+                </a>
                 <p>Payment</p>
-                <p>Log Out</p>
+                <a onClick={logOut} href="/">
+                    <p>Log Out</p>
+                </a>
             </div>
             
             <div className="Settings_white-box">

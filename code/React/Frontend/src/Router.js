@@ -3,6 +3,8 @@ import { BrowserRouter, Switch, Route } from "react-router-dom"
 import AuthContext from "./components/context/authcontext";
 import dashboard from "./components/dashboard";
 import LoginPage from './components/LoginPage';
+import ProfileSettings from "./components/ProfileSettings";
+import Settings from "./components/Settings";
 import SignupPage from './components/SignupPage';
 import SuccessfulRegistration from './components/SuccessfulRegistration'
 
@@ -14,18 +16,20 @@ function Router(){
         <BrowserRouter>
 
             <Switch>
-                <Route exact path="/register" component={SignupPage}/>
-                <Route exact path="/successfulregistration" component={SuccessfulRegistration}/>
-                <Route exact path="/" component={LoginPage} />
+               
                 {loggedIn ===false &&(
                     <> 
-                        <Route exact path="/dashboard" component={LoginPage} />
+                        <Route path="/" component={LoginPage} />
+                        <Route exact path="/register" component={SignupPage}/>
+                        <Route exact path="/successfulregistration" component={SuccessfulRegistration}/>
                     </>
                 )}
                 
                 {loggedIn === true && (
                     <> 
-                        <Route exact path="/dashboard" component={dashboard} />
+                        <Route path="/" component={dashboard}/>
+                        <Route exact path="/profilesettings" component={ProfileSettings} />
+                        <Route exact path="/settings" component={Settings} />
                     </>
                 )}
                 

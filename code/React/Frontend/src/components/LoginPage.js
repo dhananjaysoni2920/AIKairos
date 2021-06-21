@@ -25,7 +25,7 @@ function LoginPage() {
           
         );
 
-        window.location.href = "/ProfileSettings"
+        window.location.href = "/Settings"
       } catch (err) {
         console.error(err);
       }
