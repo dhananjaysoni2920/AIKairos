@@ -13,7 +13,7 @@ function ProfileSettings(){
         <div className="ProfileSettings_main-div">
         <div className="ProfileSettings_top-pane">
             <div className="ProfileSettings_profile-user">
-                <button className="ProfileSettings_profile-pic"></button>
+               <a href="/dashboard"><button className="ProfileSettings_profile-pic"></button></a>
                 <label>Hello, Shivani</label>
             </div>
             <div className="ProfileSettings_alarmsettings">

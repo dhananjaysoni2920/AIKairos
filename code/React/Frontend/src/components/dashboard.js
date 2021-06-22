@@ -14,7 +14,7 @@ function dashboard(){
                     <label>Hello, Shivani</label>
                 </div>
                 <div className="dashboard_alarmsettings">
-                    <button className="dashboard_icon-button"><img className="dashboard_alarmsettings-icon" src="https://img.icons8.com/carbon-copy/100/000000/settings.png"></img></button>
+                    <a href="/settings"><button className="dashboard_icon-button"><img className="dashboard_alarmsettings-icon" src="https://img.icons8.com/carbon-copy/100/000000/settings.png"></img></button></a>
                     <button className="dashboard_icon-button"><img className="dashboard_alarmsettings-icon" src="https://img.icons8.com/wired/64/000000/alarm.png"></img></button>
                 </div>
             </div>

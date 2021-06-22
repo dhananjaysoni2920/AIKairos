@@ -16,7 +16,7 @@ function Settings(){
         <div className="Settings_main-div">
         <div className="Settings_top-pane">
             <div className="Settings_profile-user">
-                <button className="Settings_profile-pic"></button>
+                <a href="/dashboard"><button className="Settings_profile-pic"></button></a>
                 <label>Hello, Shivani</label>
             </div>
             <div className="Settings_alarmsettings">
