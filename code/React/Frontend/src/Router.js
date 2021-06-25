@@ -1,12 +1,13 @@
 import React, {useContext} from "react"
 import { BrowserRouter, Switch, Route } from "react-router-dom"
 import AuthContext from "./components/context/authcontext";
-import dashboard from "./components/dashboard";
-import LoginPage from './components/LoginPage';
-import ProfileSettings from "./components/ProfileSettings";
-import Settings from "./components/Settings";
-import SignupPage from './components/SignupPage';
-import SuccessfulRegistration from './components/SuccessfulRegistration'
+import Dashboard from "./components/webpages/Dashboard";
+import Insights from "./components/webpages/insights";
+import LoginPage from './components/webpages/LoginPage';
+import ProfileSettings from "./components/webpages/ProfileSettings";
+import Settings from "./components/webpages/Settings";
+import SignupPage from './components/webpages/SignupPage';
+import SuccessfulRegistration from './components/webpages/SuccessfulRegistration'
 
 function Router(){
 
@@ -27,9 +28,10 @@ function Router(){
                 
                 {loggedIn === true && (
                     <> 
-                        <Route path="/" component={dashboard}/>
+                        <Route exact path="/" component={Dashboard}/>
                         <Route exact path="/profilesettings" component={ProfileSettings} />
                         <Route exact path="/settings" component={Settings} />
+                        <Route exact path="/insights" component={Insights} />
                     </>
                 )}
                 
