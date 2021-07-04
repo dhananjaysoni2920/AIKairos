@@ -20,8 +20,8 @@ function Dashboard(){
             </div>
             
             <div class="left" height="545pxs">
-                <a href="insights.html" class="btn-insights"><img src="images/insignts.svg" alt="" height="150px" width="200px"/></a>
-                <a href="#" class="btn-bookings"><img src="images/makeads.svg" alt="" height="150px" width="200px"/></a>
+                <a href="/insights" class="btn-insights"><img src="images/insignts.svg" alt="" height="150px" width="200px"/></a>
+                <a href="/bookings" class="btn-bookings"><img src="images/makeads.svg" alt="" height="150px" width="200px"/></a>
                 <a href="#" class="btn-graph"><img src="images/graphgroup.svg" alt="" height="230px" width="460px"/></a>
                 <a href="#" class="day"><img src="images/Daily.svg" height="22.498px"/></a>
                 <a href="#" class="week"><img src="images/week.svg" height="22.498px"/></a>

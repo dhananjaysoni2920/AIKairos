@@ -1,34 +1,25 @@
-
-
-.ProfileSettings_main-div {
-    background-image: url("../Assets/ProfileSettings/settings.jpg");
+html{
+    background-image: url("../Assets/insights/background.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
 }
 
-.ProfileSettings_top-pane {
+.insights_top-pane{
     padding: 20px;
     height: 30px;
     margin-top: 10px;
 }
 
-.ProfileSettings_profile-user {
+.insights_profile-user{
     display: inline-block;
-
+    
 }
-
-.ProfileSettings_profile-user label {
+.insights_profile-user label{
     margin-left: 10px;
-
+    
 }
 
-.ProfileSettings_profile-pic {
+.insights_profile-pic{
     margin-left: 50px;
     background-size: contain;
     background-color: white;
@@ -39,23 +30,22 @@
     height: 30px;
     width: 30px;
     border-color: tomato;
-
+    
 }
 
-.ProfileSettings_alarmsettings {
+.insights_alarmsettings{
     display: inline-block;
     float: right;
     margin-right: 100px;
 }
 
-.ProfileSettings_alarmsettings-icon {
+.insights_alarmsettings-icon{
     background-repeat: no-repeat;
     height: 35px;
     width: 35px;
     background-size: contain;
 }
-
-.ProfileSettings_icon-button {
+.insights_icon-button{
     background: transparent;
     border-style: none;
     height: 35px;
@@ -63,73 +53,184 @@
     margin-right: 20px;
 }
 
-.ProfileSettings_settings-container {
-    margin: 20px;
+div.insights_container{
+    /* container */
+
+padding-top: 500px;
+position: absolute;
+width: 73.33rem;
+height:26rem;
+margin-bottom: 10rem;
+padding-top: 5rem;
+
+left: 3.33rem;
+top: 6.67rem;
+
+background: #FFFFFF;
+border-bottom: 10rem;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.38);
+border-radius: 25px;
+
+}
+.insights_footfallimg{
+    /* Rectangle 52 */
+
+
+position: absolute;
+width: 9rem;
+height: 6.67rem;
+left: 62.44rem;
+top: 19.34rem;
+align-items: center;
+
+}
+
+.insights_impressionsimg{
+    /* Rectangle 52 */
+
+
+position: absolute;
+width: 9rem;
+height: 6.67rem;
+left: 62.44rem;
+top: 10.67rem;
+align-items: center;
+
+}
+
+.insights_devicesimg{
+    /* Rectangle 52 */
+
+
+position: absolute;
+width: 9rem;
+height: 6.67rem;
+left: 62.44rem;
+top: 2rem;
+align-items: center;
+
+}
+
+.insights_footpie{
     position: absolute;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    top: 50%;
-    left: 40px;
-    right: 40px;
-    height: 565px;
-    background-color: rgb(216 , 230, 251);
-    border-radius: 15px;
-    padding: 30px 20px;
-    box-shadow: rgb(165, 197, 250);
-
-}
-
-.ProfileSettings_profilepic-label{
-    display: inline-block;
-    float: left;
-    text-align: center;
-    margin-left: 10px;
-    margin-top: 10px;
-}
-
-.ProfileSettings_image{
-    border-radius: 100px;
-    height: 100px;
-    width: 100px;
-}
-
-#ProfileSettings_changeprofile{
-    font-size: 11px;
-    color: grey;
-}
-
-.ProfileSettings_user-settings{
-    display: inline-block;
-    margin-left: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.ProfileSettings_main-label{
-    font-weight: bold;
-    font-size: 20px;
-    font-weight: 500;
-    text-decoration: underline;
-}
-
-.ProfileSettings_under-mainlabel{
-    font-size: small;
-    color: grey;
+    width: 23.67rem; 
+    height: 13.56rem;
+    left:2rem;
+    top: 1rem;
     
 }
 
-.ProfileSettings_save-changes-button{
-    
-    display: inline-block;
-    float: right;
-    margin-top: 540px;
-        
+.insights_timepie{
+    position: absolute;
+    width: 23.67rem; 
+    height: 13.56rem;
+    left: 28.67rem;
+    top: 1rem;
 }
 
-.ProfileSettings_save-changes-button button{
-    background-color: rgb(161, 199, 250);
-    border-radius: 10px;
-    padding: 10px;
-    
-    border-color: rgb(161, 199, 250);
-    
+.insights_graph{
+    /* Chart */
+
+
+position: absolute;
+width: 35rem;
+height: 15rem;
+left: 5rem;
+top: 15rem;
 }
+
+.insights_head{
+    /* Total Footfall */
+
+
+position: absolute;
+width: 100px;
+height: 20px;
+left: 1182px;
+top: 488px;
+
+font-family: Barlow;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #8E8E8E;
+
+}
+
+ul.insights_nav_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+
+  }
+li.insights_nav_name{
+    /* hello, Shivani! */
+
+
+position: absolute;
+width: 10.67rem;
+height: 2.056rem;
+left: 8.11rem;
+top: 2.44rem;
+
+font-family: Barlow;
+font-style: normal;
+font-weight: normal;
+font-size: 1.67rem;
+line-height: 2.056rem;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02rem;
+
+color: #000000;
+
+mix-blend-mode: normal;
+}
+
+li.insights_nav_user{
+/* person icon */
+
+
+position: absolute;
+width: 2.81rem;
+height: 2.81rem;
+left: 4.22rem;
+top: 2rem;
+
+
+}
+
+.insights_nav_settings{
+    /* Alarm */
+
+
+position: absolute;
+width: 1.94ren;
+height: 1.94rem;
+left: 67.056rem;
+top: 2.67rem;
+}
+
+li.insights_nav_bell{
+      /* Alarm */
+
+
+position: absolute;
+width: 1.94ren;
+height: 1.94rem;
+left: 73.83rem;
+top: 2.67rem;
+
+}
+
+
+
+
+
