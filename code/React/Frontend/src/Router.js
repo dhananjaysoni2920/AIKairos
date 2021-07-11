@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom"
 import AuthContext from "./components/context/authcontext";
 import Bookings from "./components/webpages/Bookings";
 import Dashboard from "./components/webpages/Dashboard";
-import Insights from "./components/webpages/Insights";
+import Insights from "./components/webpages/insights";
 import LoginPage from './components/webpages/LoginPage';
 import ProfileSettings from "./components/webpages/ProfileSettings";
 import Settings from "./components/webpages/Settings";

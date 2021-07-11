@@ -24,9 +24,6 @@ function Insights(){
                         <img src="/images/footfall.svg" className="insights_footfallimg" />
                         <img src="/images/impressions.svg" className="insights_impressionsimg" />
                         <img src="/images/devices.svg" className="insights_devicesimg" />
-                        
-                        <p className="insights_count">24k</p>
-                        <p className="insights_change"><img src="/images/increase.svg" /></p>
                         </div>
                 </div>
             </div>
